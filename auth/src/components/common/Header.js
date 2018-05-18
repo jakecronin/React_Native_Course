@@ -32,4 +32,4 @@ const styles = {
 };
 
 // Make component accessible
-export default Header;
+export { Header };

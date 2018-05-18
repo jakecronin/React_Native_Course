@@ -7,7 +7,7 @@ const Card = (props) => (
   </View>
 );
 
-export default Card;
+export { Card };
 
 
 const styles = {
