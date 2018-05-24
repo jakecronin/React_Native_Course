@@ -22,7 +22,6 @@ class LoginForm extends React.Component {
 
   renderError() {
     if (this.props.error) {
-      console.log('got an error for render error');
       return (
         <View style={{ backgroundColor: 'white' }}>
           <Text style={styles.errorTextStyle}>

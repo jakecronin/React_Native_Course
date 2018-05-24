@@ -20,8 +20,12 @@ export default class App extends React.Component {
     projectId: 'knifelife-test',
     storageBucket: 'knifelife-test.appspot.com',
     messagingSenderId: '669055503274'
-  };
-  firebase.initializeApp(config);
+    };
+    firebase.initializeApp(config);
+
+    const firestore = firebase.firestore();
+    const settings = { timestampsInSnapshots: true };
+    firestore.settings(settings);
   }
 
   render() {
