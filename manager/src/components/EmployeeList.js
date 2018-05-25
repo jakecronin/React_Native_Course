@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import { connect } from 'react-redux';
-import { View, Text, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 import { Spinner } from './common';
 import { employeesFetch } from '../actions';
 import EmployeeListItem from './EmployeeListItem';
