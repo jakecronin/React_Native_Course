@@ -26,6 +26,7 @@ export default class App extends React.Component {
     const firestore = firebase.firestore();
     const settings = { timestampsInSnapshots: true };
     firestore.settings(settings);
+    firestore.enablePersistence();
   }
 
   render() {
